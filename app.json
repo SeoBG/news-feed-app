@@ -1,0 +1,12 @@
+{
+  "name": "news-feed-app",
+  "displayName": "news-feed-app",
+  "expo": {
+    "name": "news-feed-app",
+    "slug": "news-feed-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
