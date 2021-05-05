@@ -29,7 +29,7 @@ console.log('Localization.locales ', Localization.locale)
   
   
   const fetchData = async () => {
-    const res = await fetch('https://newsapi.org/v2/top-headlines?country=' + `${dropdownSelectedLanguage}` + '&apiKey=27680766bb6749fabb17dd2bcb919552');
+    const res = await fetch('https://newsapi.org/v2/top-headlines?country=' + `${dropdownSelectedLanguage}` + '&apiKey=27680766bb6749fabb17dd2bcb919552'); // use your own api key,this one have only 100 request per day
     const json = await res.json();
     setData(json.articles);
     // console.log('data', data);
